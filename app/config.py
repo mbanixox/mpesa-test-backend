@@ -10,3 +10,4 @@ class Settings:
     MPESA_PASSKEY = os.getenv("MPESA_PASSKEY")
     MPESA_CALLBACK_URL = os.getenv("MPESA_CALLBACK_URL")
 
+settings = Settings()
